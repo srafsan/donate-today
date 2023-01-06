@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 16px 20px;
+    height: 56px;
+    border-radius: 5px;
+    background: #ff5959;
+}
+
+/* Header styles */
+
+header {
+    height: 669px;
+    background-image: url("../images/donation7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+/* Main Styles */
+.random {
+    margin-top: 130px;
+}
+
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.main-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* Pricing plans section */
+#pricing-plans {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+
+.pricing-plan {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.selected-plan {
+    border: 2px solid #ff5959;
+    background-color: #ffeeee;
+}
+
+.selected-plan .cost {
+    color: #ff5959;
+}
+
+.cost {
+    margin: 44px 24px;
+    color: #707070;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.custom-amount {
+    color: #b3b3b3;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.custom-amount hr {
+    width: 51%;
+    border: 1px solid #dadada;
+    margin: 9px auto 30px;
+}
+
+/* Our Donate Plan styles */
+.donate-plan {
+    margin-top: 130px;
+}
+
+.donate-plan-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+/* Plans Card */
+.plans-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.plan {
+    background-color: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan1 {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.plan2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.plan3 {
+    background-color: #fff4d6;
+}
+
+.plan div {
+    display: flex;
+    justify-content: left;
+    margin-top: 63.5px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-description {
+    color: #757575;
+}
+
+/* Section1 fliers design */
+.sec1 {
+    margin-top: 130px;
+    display: flex;
+    gap: 83px;
+}
+
+.sec1-info h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.sec1-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.sec1 button {
+    margin-top: 30px;
+}
+
+/* Section1 fliers design */
+.sec2 {
+    margin-top: 100px;
+    display: flex;
+    gap: 83px;
+    margin-bottom: 130px;
+}
+
+.sec2-info h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.sec2-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.sec2 button {
+    margin-top: 30px;
+}
+
+/* Get my updates */
+.get-my-updates {
+    margin: auto;
+    max-width: 690px;
+}
+
+.get-my-updates h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+.form {
+    margin-top: 50px;
+    padding: 76px;
+    background-color: #fff4d6;
+    display: flex;
+    align-items: center;
+}
+
+.form input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-btn {
+    width: 30%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bh {
+    font-family: "Dancing Script", cursive;
+    color: tomato;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.ig {
+    margin-top: 30px;
+    color: white;
+}
