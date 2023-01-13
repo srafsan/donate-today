@@ -283,12 +283,10 @@ footer {
     color: white;
 }
 
+/* RESPONSIVE SECTION */
+/* for mobiles */
 @media screen and (max-width: 576px) {
-    #pricing-plans {
-        width: 50%;
-        flex-direction: column;
-    }
-
+    /* head */
     .banner {
         position: absolute;
         top: 30%;
@@ -306,10 +304,18 @@ footer {
         line-height: 16px;
     }
 
+    /* main */
     .random {
         margin-top: -200px;
     }
 
+    /* prices */
+    #pricing-plans {
+        width: 50%;
+        flex-direction: column;
+    }
+
+    /* plans */
     .plans-container {
         flex-direction: column;
     }
@@ -318,16 +324,43 @@ footer {
         justify-content: center;
     }
 
-    .sec1 {
-        flex-direction: column-reverse;
-    }
-
+    /* sections */
+    .sec1,
     .sec2 {
         flex-direction: column-reverse;
     }
 }
 
-/* hide */
-.hide {
-    display: none;
+/* For tabs */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    /* header */
+    .banner-title {
+        font-size: 40px;
+        line-height: 38px;
+    }
+
+    .banner-description {
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+    /* main */
+    .random {
+        margin-top: -200px;
+    }
+
+    /* pricing plans */
+    #pricing-plans {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #pricing-plans > :nth-child(5) {
+        grid-column: 2 span;
+    }
+
+    .sec1,
+    .sec2 {
+        padding: 10px;
+    }
 }
