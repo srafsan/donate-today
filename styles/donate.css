@@ -242,7 +242,7 @@ main {
 
 .form input {
     width: 70%;
-    padding: 12px 20px;
+    padding: 17px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -262,12 +262,13 @@ main {
 footer {
     height: 200px;
     width: 100%;
-    margin: 0 auto;
+    padding: 0 auto;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .bh {
@@ -280,4 +281,53 @@ footer {
 .ig {
     margin-top: 30px;
     color: white;
+}
+
+@media screen and (max-width: 576px) {
+    #pricing-plans {
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .banner {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50% - 20px);
+    }
+
+    .banner-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .banner-description {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .random {
+        margin-top: -200px;
+    }
+
+    .plans-container {
+        flex-direction: column;
+    }
+
+    .plan div {
+        justify-content: center;
+    }
+
+    .sec1 {
+        flex-direction: column-reverse;
+    }
+
+    .sec2 {
+        flex-direction: column-reverse;
+    }
+}
+
+/* hide */
+.hide {
+    display: none;
 }
